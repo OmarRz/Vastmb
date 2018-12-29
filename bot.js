@@ -2,7 +2,7 @@
 	   const prefix = '+'
 const client = new Discord.Client();
 client.on('ready', () => {
-  client.user.setGame(`Broadcast`,'https://www.twitch.tv/v5bz');
+  client.user.setGame(`,Magic Broadcast`,'https://www.twitch.tv/v5bz');
   console.log('---------------');
   console.log(' Bot Is Online')
   console.log('---------------')
